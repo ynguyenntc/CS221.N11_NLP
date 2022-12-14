@@ -18,21 +18,43 @@ def wordsTokenzizer(path2Raw='input/data_raw.txt'):
     '''
     list_Tokens = []
     list_LinesTokens = []
+    list = []
     with open(path2Raw, 'r', encoding="utf-8") as f:
         data = f.read()
 
         list_Lines = data.split('\n')
         for line in list_Lines:
             token = [i for j in rdrsegmenter.tokenize(line) for i in j]
+
             list_LinesTokens.append(' '.join(token))
             list_Tokens.append(token)
 
-    return list_Tokens, list_LinesTokens
+    for i in list_Tokens:
+        list.extend(i)
+
+    return list, list_LinesTokens
 
 
 list_Tokens, list_LinesTokens = wordsTokenzizer()
+# print(list_Tokens)
+# print(list_LinesTokens)
 #pickle.dump(list_Tokens, open('output/VnCore_Tokens.pkl', 'wb'))
+# print(list_Tokens)
+bi_grams = []
+tri_grams = []
+for sentence in set(list_Tokens):
+    temp = 0
+    for s in list(sentence):
+        if s == "_":
+            temp += 1
+    if temp == 1:
+        bi_grams.append(sentence)
+    elif temp == 2:
+        tri_grams.append(sentence)
+print(len(bi_grams))
+print(len(tri_grams))
 
+# print(list_LinesTokens)
 with open('input\data_tokenizer_vncorenlp.txt', 'w', encoding="utf-8") as f:
     for line in list_LinesTokens:
         f.write(line)
