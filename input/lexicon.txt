@@ -1,0 +1,377 @@
+N -> Việc
+V -> dậy
+A -> đúng
+N -> giờ
+R -> thật
+A -> khó
+CH -> .
+V -> Có
+Nc -> con
+N -> chuột
+E -> trong
+N -> góc
+N -> nhà
+N -> Anh
+Pd -> ấy
+R -> không
+V -> đi
+V -> đá
+N -> bóng
+E -> vì
+N -> bạn
+N -> gái
+V -> ốm
+R -> sẽ
+V -> bài_toán
+Pd -> này
+E -> bằng
+N -> cách
+Pi -> nào
+CH -> ?
+N -> Bàn_tay
+E -> của
+N -> cô
+A -> mềm_mại
+V -> ra
+P -> sao
+CH -> ?
+A -> Vinh_quang
+T -> thay
+L -> những
+Nc -> vị
+N -> anh_hùng
+N -> dân_tôc
+CH -> !
+V -> bay
+E -> từ
+Np -> Thừa_Thiên_Huế
+E -> ra
+Np -> Hà_Nội
+N -> Con
+V -> nên
+V -> mượn
+N -> sách
+C -> mà
+V -> học
+N -> tiếng
+Np -> Anh
+C -> Nếu
+N -> thời_tiết
+A -> đẹp
+C -> thì
+N -> lớp
+Pp -> chúng_tôi
+V -> thăm
+N -> rừng
+Np -> Cúc_Phương
+E -> vào
+N -> chủ_nhật
+N -> tuần
+C -> Hễ
+Nc -> ông
+Np -> Nguyễn_Văn_Linh
+V -> đến
+Nc -> chị
+Np -> Như_Ý
+V -> gọi
+Pp -> tôi
+C -> Tuy
+Np -> Tường_Quy
+V -> bị
+V -> hỏng
+N -> mắt
+C -> nhưng
+R -> vẫn
+V -> sống
+R -> rất
+A -> lạc_quan
+V -> yêu
+C -> vì
+N -> nguyên_nhân
+A -> sâu_xa
+R -> hơn
+Nc -> Em
+N -> học_sinh
+Pd -> đó
+CH -> -
+A -> thật
+C -> là
+A -> gan_dạ
+R -> đã
+V -> đã
+V -> nổ
+N -> mìn
+V -> diệt
+L -> cả
+Nc -> tốp
+N -> địch
+Nc -> Cô
+Np -> Lan_Anh
+V -> nói
+V -> thêm
+CH -> :
+CH -> "
+V -> lên
+Pd -> đây
+V -> được
+Mc -> 6
+N -> năm
+T -> rồi
+N -> chó
+V -> tưởng
+N -> chủ
+V -> mắng
+CH -> ,
+V -> vẫy
+N -> đuôi
+V -> mừng
+C -> để
+V -> lấy_lòng
+N -> Thành_phố
+Np -> Bình_Dương
+V -> đề_xuất
+V -> giảm
+N -> vốn
+N -> tuyến
+N -> buýt
+A -> nhanh
+N -> kí_túc_xá
+N -> khu
+Ni -> A
+Nc -> Bà
+V -> là
+N -> tổng_giám_đốc
+N -> công_ty
+A -> chuyên
+N -> hàng
+V -> may_mặc
+Np -> Nguyễn_Tấn_Tú
+V -> bắt
+C -> do
+V -> buôn_lậu
+N -> chất
+V -> kích_thích
+V -> Ngoặc
+N -> khúc
+N -> sông
+N -> lượn
+V -> thấy
+N -> sóng
+N -> bọt
+A -> trắng_xóa
+Pd -> cả
+Mc -> một
+N -> chân
+N -> trời
+Nc -> Đứa
+V -> thương
+N -> mẹ
+C -> nên
+V -> nhảy_xổ
+V -> đánh
+V -> trả
+Mc -> hai
+Nc -> cái
+N -> tát
+Nc -> người
+N -> cha
+V -> ngã
+V -> nhào
+N -> Chị
+V -> kể
+V -> lại
+R -> cuộc_đời
+A -> nhiều
+A -> thiệt_thòi
+A -> đau_khổ
+R -> của
+PP -> mình
+E -> Sau
+Nc -> hai
+V -> trở
+V -> về
+N -> miền
+N -> đông
+N -> Ruồi
+V -> đậu
+N -> mâm
+N -> xôi
+N -> đậu
+V -> bò
+N -> đĩa
+N -> thịt
+N -> bò
+N -> ngựa
+N -> đá
+N -> Hổ_mang
+N -> núi
+N -> cào_cào
+E -> trên
+Nc -> chiếc
+N -> lá
+N -> cán_bộ
+N -> đoàn_thể
+V -> tập_kết
+N -> cuộc_chiến
+Nc -> anh
+Np -> Nguyễn_Văn_Sáu
+V -> hi_sinh
+V -> bảo_vệ
+L -> những
+N -> đồng_đội
+Nc -> việc
+A -> trắc_trở
+C -> như
+N -> thế
+V -> làm
+E -> cho
+N -> ông_già
+A -> hơn
+Mc -> tám_mươi
+N -> tuổi
+V -> phải
+V -> chết
+N -> một_cách
+A -> bình_tĩnh
+Pd -> kia
+N -> người
+A -> sung_sướng
+R -> lắm
+Np -> Trương
+I -> ơi
+N -> ông
+V -> làm_ơn
+V -> mở
+N -> cổng
+N -> trâu
+N -> đồng
+I -> ạ
+V -> Thưa
+A -> nóng_tính
+I -> lắm
+V -> dặn
+N -> buổi
+V -> cày
+X -> cho_xong
+N -> ruộng
+V -> nộp
+N -> thuế
+A -> đủ
+N -> hôm_qua
+R -> rồi
+V -> xin
+C -> Vả_lại
+Np -> Lý
+V -> sai
+V -> đóng
+V -> cốt
+A -> thiếu
+I -> chứ
+R -> Chớ
+R -> có
+V -> muốn
+A -> vất_vả
+Pi -> gì
+N -> câu
+V -> phân_trần
+A -> tha_thiết
+V -> kéo
+V -> dài
+E -> ngoài
+N -> đường
+V -> vào
+E -> đến
+N -> giọt
+N -> đình
+V -> ghi
+E -> ở
+N -> đoạn
+N -> hình_ảnh
+V -> chiến_đấu
+N -> gian_lao
+N -> lái_đò
+N -> chiến_trường
+Np -> Sông_Đà
+N -> quảng
+N -> thủy
+N -> chiến
+N -> mặt_trận
+A -> cùng
+V -> thoát_li
+N -> kháng_chiến
+Mo -> 1946
+N -> khi
+Np -> Hồ_Chí_Minh
+V -> chiếm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

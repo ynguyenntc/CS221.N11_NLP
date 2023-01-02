@@ -1,0 +1,130 @@
+S -> NP AP CH 
+NP -> N VP
+VP -> V AP
+A -> A N
+AP -> R A
+S -> VP CH
+VP -> V NP PP
+NP -> Nc N
+PP -> E NP
+NP -> N N
+S -> NP VP CH
+NP -> N Pd
+VP -> R V VP SBAR
+VP -> V NP
+NP -> N
+SBAR -> E S
+S -> NP VP
+VP -> V
+VP -> R V NP PP
+NP -> N Pi
+S -> NP AP CH
+NP -> N PP
+AP -> A VP
+VP -> V P
+S -> AP NP CH
+AP -> A T
+NP -> L Nc N N
+VP -> R V PP
+NP -> Np
+VP -> V VP
+VP -> V NP C VP
+NP -> N Np
+S -> SBAR C S CH
+SBAR -> C S
+S -> NP AP
+AP -> A
+NP -> Nc Np
+VP -> V NP VP
+NP -> Pp
+VP -> R V AP
+VP -> VP SBAR
+VP -> V N
+NP -> L N 
+AP -> A R
+S -> NP CH AP CH VP CH
+NP -> NP Pd
+AP -> A C AP
+VP -> VP VP
+VP -> R VP
+NP -> L NP
+VP -> V V CH SBAR
+SBAR -> CH S CH
+NP -> Pp 
+NP -> Pd
+VP -> V NP T
+NP -> Mc N
+S -> S CH VP CH
+NP -> N V
+VP -> VP C VP
+VP -> VP V
+VP -> VP NP
+NP -> NP NP
+NP -> NP A
+NP -> Np CH NP
+NP -> N Ni
+NP -> Nc pd
+NP -> NP AP
+AP -> A NP
+VP -> V V
+S -> VP CH VP CH
+VP -> V S
+NP -> Pd NP
+NP -> Mc NP
+S -> S C VP CH
+VP -> C VP C VP
+VP -> V PP
+PP -> E VP
+NP -> NP PP
+VP -> VP R NP
+NP -> N AP
+AP -> A AP
+AP -> A CH A
+PP -> R PP
+S -> PP CH S CH
+PP -> E Pd
+NP -> Nc Pp
+S -> S CH S CH
+VP -> R V
+NP -> L NP
+NP -> NP C N
+NP -> Nc A
+VP -> V SBAR
+NP -> A NP
+NP -> N A
+NP -> Nc V
+VP -> VP AP
+NP -> A N
+S -> NP CH S CH
+NP -> NP I
+VP -> VP I
+VP -> VP PP
+PP -> E Pp
+S -> VP CH S CH
+AP -> AP Pd
+AP -> A I
+SBAR -> NP S
+VP -> V X
+VP -> VP R
+VP -> VP A
+PP -> E N
+SBAR -> NP VP
+S -> C CH S CH VP CH
+S -> NP NP
+NP -> V VP
+VP -> N VP
+VP -> VP C VP I
+VP -> VP CH VP
+AP -> A N
+S -> R NP VP CH
+AP -> A PP
+VP -> V Pi
+AP -> V VP
+VP -> PP VP
+VP -> V E NP
+S -> NP VP CH PP CH
+NP -> E NP
+S -> S CH PP CH
+NP -> N Mo
+PP -> PP SBAR
+NP -> V V

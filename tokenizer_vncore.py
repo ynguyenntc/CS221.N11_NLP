@@ -42,17 +42,16 @@ list_Tokens, list_LinesTokens = wordsTokenzizer()
 # print(list_Tokens)
 bi_grams = []
 tri_grams = []
-for sentence in set(list_Tokens):
+for word in list_Tokens:
     temp = 0
-    for s in list(sentence):
-        if s == "_":
-            temp += 1
+    temp = word.count('_')
     if temp == 1:
-        bi_grams.append(sentence)
+        bi_grams.append(word)
     elif temp == 2:
-        tri_grams.append(sentence)
+        tri_grams.append(word)
 print(len(bi_grams))
 print(len(tri_grams))
+
 
 # print(list_LinesTokens)
 with open('input\data_tokenizer_vncorenlp.txt', 'w', encoding="utf-8") as f:

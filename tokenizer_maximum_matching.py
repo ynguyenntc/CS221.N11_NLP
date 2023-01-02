@@ -27,85 +27,34 @@ def syllablize(sentence):
     return [token[0] for token in tokens]
 
 
-# print(bi_grams, len(bi_grams))
-# print(tri_grams, len(tri_grams))
+def maximumMatching(sentence, maxlen=4):
+    dictionary = getDictionary()
 
+    my_list = []
+    list_Words = sentence.split()
+    len_now = len(list_Words)
+    i = 0
+    maxl = maxlen
+    while i < len_now:
+        wordCheck = '_'.join(list_Words[i:maxlen + i])
 
-# def longest_matching(sentence, bi_grams, tri_grams):
-#     syllables = syllablize(sentence)
-#     syl_len = len(syllables)
+        while wordCheck not in dictionary:
+            if maxl > 1:
+                wordCheck = '_'.join(list_Words[i:i + maxl])
+            elif maxl == 1:
+                wordCheck = list_Words[i]
+            elif maxl == 0:
+                break
+            maxl -= 1
+        if maxl > 0:
+            i += maxl
+        i += 1
+        my_list.append(wordCheck)
+        maxl = min(len_now - i, maxlen)
 
-#     curr_id = 0
-#     word_list = []
-#     done = False
+    line = ' '.join(my_list)
 
-#     while (curr_id < syl_len) and (not done):
-#         curr_word = syllables[curr_id]
-#         if curr_id >= syl_len - 1:
-#             word_list.append(curr_word)
-#             done = True
-#         else:
-#             next_word = syllables[curr_id + 1]
-#             pair_word = ' '.join([curr_word.lower(), next_word.lower()])
-#             if curr_id >= (syl_len - 2):
-#                 if pair_word in bi_grams:
-#                     word_list.append('_'.join([curr_word, next_word]))
-#                     curr_id += 2
-#                 else:
-#                     word_list.append(curr_word)
-#                     curr_id += 1
-#             else:
-#                 next_next_word = syllables[curr_id + 2]
-#                 triple_word = ' '.join([pair_word, next_next_word.lower()])
-#                 if triple_word in tri_grams:
-#                     word_list.append(
-#                         '_'.join([curr_word, next_word, next_next_word]))
-#                     curr_id += 3
-#                 elif pair_word in bi_grams:
-#                     word_list.append('_'.join([curr_word, next_word]))
-#                     curr_id += 2
-#                 else:
-#                     word_list.append(curr_word)
-#                     curr_id += 1
-#     return word_list
-
-
-# print(longest_matching(
-#     'Ông Nguyễn Tấn Tú đã bị bắt do buôn lậu chất kích thích.', bi_grams, tri_grams))
-# def maximumMatching(sentence, maxlen=4):
-#     '''
-#         Thuat toan tach tu bang Maximum Matching
-#     '''
-
-#     dictionary = getDictionary()
-
-#     my_list = []
-#     list_Words = sentence.split()
-#     len_now = len(list_Words)
-#     i = 0
-#     maxl = maxlen
-#     while i < len_now:
-#         wordCheck = '_'.join(list_Words[i:maxlen + i])
-
-#         while wordCheck not in dictionary:
-#             #  print(wordCheck)
-#             if maxl > 1:
-#                 wordCheck = '_'.join(list_Words[i:i + maxl])
-#             elif maxl == 1:
-#                 wordCheck = list_Words[i]
-#             elif maxl == 0:
-#                 break
-#             maxl -= 1
-#         if maxl > 0:
-#             i += maxl
-#         i += 1
-#         #  print('TRUE {} | Len: {}'.format(wordCheck, maxl))
-#         my_list.append(wordCheck)
-#         maxl = min(len_now - i, maxlen)
-
-#     line = ' '.join(my_list)
-
-#     return line
+    return line
 
 
 def maximumsMatching(lines, maxlen=4):
@@ -159,20 +108,19 @@ list_line, list_token = maximumsMatching(lines)
 
 bi_grams = []
 tri_grams = []
-for sentence in set(list_token):
+for word in list_token:
     temp = 0
-    for s in list(sentence):
-        if s == "_":
-            temp += 1
+    temp = word.count('_')
     if temp == 1:
-        bi_grams.append(sentence)
+        bi_grams.append(word)
     elif temp == 2:
-        tri_grams.append(sentence)
-print(bi_grams, len(bi_grams))
-print(tri_grams, len(tri_grams))
+        tri_grams.append(word)
+print(len(bi_grams))
+print(len(tri_grams))
+
 #  pickle.dump(list_Tokens, open('output/maximumMatching.pkl', 'wb'))
 #
-with open('input\data_tokenizer_longest_matching.txt', 'w', encoding="utf-8") as f:
+with open('input\data_tokenizer_maximum_matching.txt', 'w', encoding="utf-8") as f:
     for line in list_line:
         f.write(line)
         f.write('\n')
